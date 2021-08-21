@@ -14,8 +14,10 @@ repositories {
 
 dependencies {
     testImplementation  group: 'junit', name: 'junit', version: '4.11'
-    testImplementation  group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
     compileOnly group: 'javax', name: 'javaee-api', version: '8.0.1'
-
+    compileOnly group: 'org.mockito', name: 'mockito-core', version: '3.12.1'
+    compileOnly group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'org.mockito:mockito-core:2.28.2'
 }
