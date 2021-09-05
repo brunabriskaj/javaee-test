@@ -1,7 +1,6 @@
 package design_patterns.decorator_pattern;
 
 import design_patterns.decorator_pattern.thirdpartylogger.LogMessage;
-import sun.rmi.runtime.Log;
 
 import javax.annotation.Priority;
 import javax.decorator.Decorator;

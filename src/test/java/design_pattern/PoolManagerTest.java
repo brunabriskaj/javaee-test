@@ -7,7 +7,7 @@ import org.mockito.Mockito;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 
-public class PoolMangerTest {
+public class PoolManagerTest {
 
     private PoolManager singletonObject;
 
