@@ -15,12 +15,12 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>AdminRequestHandler</servlet-name>
+        <servlet-name>RequestHandler</servlet-name>
         <servlet-class>java_server_filters.RequestHandler</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>AdminRequestHandler</servlet-name>
+        <servlet-name>RequestHandler</servlet-name>
         <url-pattern>/Servlets/RequestHandler</url-pattern>
     </servlet-mapping>
 

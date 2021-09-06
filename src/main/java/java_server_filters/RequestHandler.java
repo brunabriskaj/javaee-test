@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "AdminRequestHandler")
+@WebServlet(name = "RequestHandler")
 public class RequestHandler extends HttpServlet {
 
     protected void doGet(HttpServletRequest httpServletRequest, HttpServletResponse response) throws IOException {
