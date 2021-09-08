@@ -1,4 +1,4 @@
-package java_server_filters;
+package design_patterns.java_server_filters;
 
 import eu.bitwalker.useragentutils.UserAgent;
 
