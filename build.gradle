@@ -20,4 +20,5 @@ dependencies {
     compileOnly group: 'org.mockito', name: 'mockito-core', version: '3.12.1'
     compileOnly group: 'junit', name: 'junit', version: '4.12'
     testImplementation 'org.mockito:mockito-core:2.28.2'
+    implementation group: 'eu.bitwalker', name: 'UserAgentUtils', version: '1.21'
 }
